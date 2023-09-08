@@ -1,0 +1,26 @@
+.main-container {
+  max-width: 100vw;
+}
+
+.symbol-data-container {
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: 100%;
+}
+
+.card-header {
+  font-size: 0.9rem;
+}
+
+.card-body {
+  overflow: scroll;
+}
+
+.data-container {
+  height: 270px;
+  overflow-y: scroll;
+}
+
+.detail-container {
+  padding-bottom: 20px !important;
+}

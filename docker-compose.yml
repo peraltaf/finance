@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  server:
+    build:
+      dockerfile: Dockerfile
+      context: './server'
+    container_name: server
+    ports:
+      - '8000:8000'
+    volumes:
+      - ./server:/app
+      - /app/node_modules
+  client:
+    build: 
+      dockerfile: Dockerfile
+      context: './client'
+    container_name: client
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./client:/app
+      - /app/node_modules
+    stdin_open: true

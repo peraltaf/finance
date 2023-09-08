@@ -1,0 +1,30 @@
+.card-body {
+  padding-top: 0;
+}
+
+.card-header {
+  margin-bottom: 0 !important;
+}
+
+.news__item {
+  font-size: 0.85rem;
+  padding: 0.35rem 0.5rem;
+  border-left: 2px solid #444F57 !important;
+  margin: 0.25rem 0;
+  border-bottom: none;
+}
+
+.news__item:hover {
+  border-left: 2px solid #788B96 !important;
+  background-color: #E9ECEF;
+}
+
+.news__item a {
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: #212529;
+}
+
+.news__publisher {
+  float: right;
+}

@@ -1,0 +1,29 @@
+.card {
+ padding: 0;
+}
+
+.summary-table > tbody > tr > td {
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+  padding: 0.45rem 10px;
+  border: none;
+}
+
+.summary-table > tbody > tr {
+  border: none;
+}
+
+.summary-table > tbody > tr > td > div {
+  border-bottom: solid 1px lightgray;
+  padding-bottom: 0.5rem;
+}
+
+.cell {
+  display: flex;
+  justify-content: space-between;
+}
+
+.metric {
+  font-style: bold;
+  font-weight: 500;
+}

@@ -1,0 +1,19 @@
+.symbol__selector {
+  max-height: calc(100vh - 110px);
+  overflow-y: scroll;
+}
+
+.symbol-selector-item {
+  padding-left: 0px;
+  padding-right: 5px;
+}
+
+.symbol__selector-cont {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.symbol__selector-price {
+  margin-right: 10px;
+}
